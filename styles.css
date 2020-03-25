@@ -1,17 +1,14 @@
 header {
-    background-color: #f72210;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #f72210;
+  color: white;
 }
 
 .newsweek-logo {
-    width: 396px;
-    height: 60px;
-    fill: white;
-}
-
-.weather-icon {
-    width: 24px;
-}
-
-.arrow-icon {
-    width: 11px;
+  width: 396px;
+  height: 60px;
+  fill: white;
 }
