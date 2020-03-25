@@ -3,6 +3,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 100px;
+  font-family: 'Roboto Condensed', sans-serif;
   background-color: #f72210;
   color: white;
 }
@@ -22,4 +23,10 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 160px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.sign-subscribe-container {
+  margin-right: 10px;
 }
