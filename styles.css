@@ -12,3 +12,14 @@ header {
   height: 60px;
   fill: white;
 }
+
+.weather-date-container {
+  margin-left: 20px;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 160px;
+}
