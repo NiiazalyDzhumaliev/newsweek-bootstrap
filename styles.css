@@ -132,10 +132,6 @@ header {
   .sign-subscribe-mobile {
     align-self: center;
   }
-
-  .newsweek-logo-medium {
-    margin-bottom: 10px;
-  }
 }
 
 @media screen and (max-width: 358px) {
