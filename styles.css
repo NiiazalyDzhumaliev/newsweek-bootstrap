@@ -119,6 +119,10 @@ header {
     margin-left: 10px;
     margin-right: 0;
   }
+
+  .subscribe-arrow {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 358px) {
