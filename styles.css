@@ -114,4 +114,15 @@ header {
   .sign-subscribe-container {
     font-size: 0.8rem;
   }
+
+  .menu-icon {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 358px) {
+  .newsweek-logo-medium {
+    margin-right: 10px;
+  }
 }
