@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 90px;
+  height: 100px;
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #f72210;
   color: white;
@@ -12,6 +12,10 @@ header {
   width: 396px;
   height: 60px;
   fill: white;
+}
+
+.newsweek-logo-medium {
+  display: none;
 }
 
 .weather-date-container {
@@ -44,4 +48,70 @@ header {
   margin-left: 10px;
   background-color: white;
   color: #f72210;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    height: 50px;
+  }
+
+  .sign-subscribe-container {
+    align-self: center;
+    margin-bottom: 0;
+  }
+
+  .weather {
+    margin-bottom: 0;
+  }
+
+  .newsweek-logo {
+    display: none;
+  }
+
+  .date {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  .weather-medium {
+    width: 100%;
+  }
+
+  .newsweek-logo-medium {
+    display: block;
+    width: 140px;
+    margin-right: 20px;
+    fill: white;
+  }
+
+  .cloud-icon {
+    margin-right: 5px;
+  }
+
+  .degree {
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .degree,
+  .location,
+  .cloud-icon,
+  .location-arrow {
+    display: none;
+  }
+
+  .sign-subscribe-container {
+    font-size: 0.8rem;
+  }
 }
