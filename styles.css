@@ -136,13 +136,7 @@ header {
 }
 
 @media screen and (max-width: 358px) {
-  .newsweek-logo-medium {
-    width: 100px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-  }
-
-  .subscribe-arrow {
-    display: none;
+  .sign-subscribe-container {
+    font-size: 0.7rem;
   }
 }
