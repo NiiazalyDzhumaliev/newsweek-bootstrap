@@ -126,4 +126,13 @@ header {
     width: 100px;
     margin-right: 10px;
   }
+
+  .subscribe {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .subscribe-arrow {
+    display: none;
+  }
 }
