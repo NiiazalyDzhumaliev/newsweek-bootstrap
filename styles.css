@@ -157,20 +157,27 @@ header {
   background-color: #f72210;
 }
 
+nav {
+  border-bottom: 1px solid #d9d9d9;
+}
+
 .navbar-list {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: center; */
   margin-left: 10px;
-  margin-right: 10px;
+  margin-bottom: 0;
   padding-left: 0;
+  padding-bottom: 16px;
   width: 93%;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 15px;
   list-style-type: none;
 }
 
 .navbar-list-item {
-  padding-right: 15px;
+  align-self: center;
+  width: 100%;
+  text-align: center;
   height: 28px;
   border-right: 1px solid #d9d9d9;
   cursor: pointer;
