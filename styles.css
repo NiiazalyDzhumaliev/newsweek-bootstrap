@@ -205,6 +205,11 @@ nav {
   }
 }
 
+.top-content-container {
+  padding: 0;
+  margin-top: 20px;
+}
+
 .top-content {
   margin-left: 10px;
 }
@@ -221,11 +226,11 @@ nav {
   padding-right: 15px;
   padding-bottom: 5px;
   padding-top: 5px;
-  background-color: rgba(255, 255, 255, .9);  
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .featured-stories {
-  padding: 0;
+  padding-right: 30px;
 }
 
 .category-link {
@@ -243,6 +248,36 @@ nav {
   flex-direction: column;
 }
 
+.feature-image {
+  width: 100%;
+}
+
 .feature-image-container {
   position: relative;
+}
+
+.feature-header,
+.feature-description {
+  width: 100%;
+}
+
+.feature-header-link {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.feature-header-link:hover {
+  text-decoration-color: #f72210;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.featured-stories-header,
+.top-story-header,
+.opinion-header {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgba(3, 3, 3, 0.4);
 }
