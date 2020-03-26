@@ -170,11 +170,18 @@ header {
 }
 
 .navbar-list-item {
+  padding-right: 15px;
+  height: 28px;
+  border-right: 1px solid #d9d9d9;
   cursor: pointer;
 }
 
 .navbar-list-item:hover {
   color: #f72210;
+}
+
+.navbar-search-container {
+  border-right: none;
 }
 
 .navbar-search-input {
