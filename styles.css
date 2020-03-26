@@ -215,7 +215,11 @@ nav {
 }
 
 .top-story {
-  background-color: aquamarine;
+  border: 1px solid black;
+}
+
+.opinion {
+  border: 1px solid #333;
 }
 
 .category {
@@ -230,6 +234,7 @@ nav {
 }
 
 .featured-stories {
+  border: 1px solid #666;
   padding-right: 30px;
 }
 
@@ -278,6 +283,7 @@ nav {
 .top-story-header,
 .opinion-header {
   font-size: 16px;
+  font-weight: bold;
   text-transform: uppercase;
   color: rgba(3, 3, 3, 0.4);
 }
