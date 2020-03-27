@@ -157,7 +157,13 @@ header {
   background-color: #f72210;
 }
 
-.nav-item {
+nav {
+  width: 93%;
+}
+
+.nav-link {
+  padding-left: 0;
+  padding-right: 0;
   border-right: 1px solid #666;
 }
 
