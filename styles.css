@@ -243,16 +243,21 @@ nav {
   height: 63px;
 }
 
-.opinion-item-header {
+.opinion-item-link {
   font-size: 17px;
   font-weight: bold;
   color: black;
 }
 
+.opinion-item-link:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
 .opinion-author {
   font-size: 14px;
   font-weight: bold;
-  color: #555555;
+  color: #555;
 }
 
 .opinion-item {
