@@ -214,14 +214,6 @@ nav {
   margin-left: 10px;
 }
 
-.top-story {
-  border: 1px solid black;
-}
-
-.opinion {
-  border: 1px solid #333;
-}
-
 .category {
   position: absolute;
   bottom: 0;
@@ -234,7 +226,6 @@ nav {
 }
 
 .featured-stories {
-  border: 1px solid #666;
   padding-right: 30px;
 }
 
