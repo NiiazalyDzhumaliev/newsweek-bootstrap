@@ -184,6 +184,10 @@ nav {
 }
 
 @media screen and (max-width: 992px) {
+  nav {
+    display: none;
+  }
+
   .dropdown {
     display: none;
   }
@@ -200,8 +204,8 @@ nav {
   text-decoration-color: #f72210;
 }
 
-.top-content-container {
-  margin-top: 20px;
+.feature-image-container {
+  position: relative;
 }
 
 .category {
@@ -223,37 +227,6 @@ nav {
 .category-link:hover {
   text-decoration: none;
   color: #f72210;
-}
-
-.feature {
-  display: flex;
-  flex-direction: column;
-}
-
-.feature-image {
-  width: 100%;
-}
-
-.feature-image-container {
-  position: relative;
-}
-
-.feature-header,
-.feature-description {
-  width: 100%;
-}
-
-.feature-header-link {
-  font-size: 24px;
-  font-weight: bold;
-  color: black;
-}
-
-.feature-header-link:hover {
-  text-decoration-color: #f72210;
-  font-size: 24px;
-  font-weight: bold;
-  color: black;
 }
 
 .featured-stories-header,
