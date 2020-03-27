@@ -237,3 +237,24 @@ nav {
   text-transform: uppercase;
   color: rgba(3, 3, 3, 0.4);
 }
+
+.opinion-image {
+  width: 63px;
+  height: 63px;
+}
+
+.opinion-item-header {
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+}
+
+.opinion-author {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555555;
+}
+
+.opinion-item {
+  border-bottom: 1px solid #d9d9d9;
+}
