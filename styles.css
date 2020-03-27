@@ -158,15 +158,14 @@ header {
 }
 
 nav {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d9d9d9;
   width: 96%;
 }
 
 .nav-link {
   padding: 0;
   border-right: 1px solid #d9d9d9;
-}
-
-.nav-link {
   font-size: 19px;
   font-weight: bold;
   color: black;
@@ -177,7 +176,7 @@ nav {
 }
 
 .navbar-search-input {
-  width: 55px;
+  max-width: 50px;
   border: none;
 }
 
