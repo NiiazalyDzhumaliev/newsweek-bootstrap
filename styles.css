@@ -157,7 +157,26 @@ header {
   background-color: #f72210;
 }
 
-nav {
+.nav-item {
+  border-right: 1px solid #666;
+}
+
+.nav-link {
+  font-size: 19px;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-link:hover {
+  color: #f72210;
+}
+
+.navbar-search-input {
+  width: 55px;
+  border: none;
+}
+
+/* nav {
   border-bottom: 1px solid #d9d9d9;
 }
 
@@ -193,7 +212,7 @@ nav {
 .navbar-search-input {
   width: 55px;
   border: none;
-}
+} */
 
 @media screen and (max-width: 992px) {
   nav {
