@@ -106,6 +106,7 @@ header {
 }
 
 @media screen and (max-width: 600px) {
+
   .degree,
   .location,
   .cloud-icon,
@@ -274,11 +275,4 @@ nav {
 .travel-text {
   font-size: 15px;
   color: rgba(39, 39, 39, 0.5);
-}
-
-@media screen and (max-width: 768px) {
-  .culture-travel-header,
-  .culture-travels-container {
-    display: none;
-  }
 }
