@@ -106,7 +106,6 @@ header {
 }
 
 @media screen and (max-width: 600px) {
-
   .degree,
   .location,
   .cloud-icon,
@@ -263,4 +262,23 @@ nav {
 
 .opinion-item {
   border-bottom: 1px solid #d9d9d9;
+}
+
+.travel-title {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  color: #272727;
+  cursor: pointer;
+}
+
+.travel-text {
+  font-size: 15px;
+  color: rgba(39, 39, 39, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+  .culture-travel-header,
+  .culture-travels-container {
+    display: none;
+  }
 }
