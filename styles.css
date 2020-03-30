@@ -233,7 +233,8 @@ nav {
 .top-story-header,
 .opinion-header,
 .culture-travel-header,
-.more-stories-title {
+.more-stories-title,
+.latest-news-title {
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
@@ -278,7 +279,8 @@ nav {
   color: rgba(39, 39, 39, 0.5);
 }
 
-.more-stories-header {
+.more-stories-header,
+.latest-news-header {
   font-size: 17px;
 }
 
