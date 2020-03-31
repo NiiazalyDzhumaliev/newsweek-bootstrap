@@ -305,3 +305,31 @@ nav {
   font-size: 18px;
   cursor: pointer;
 }
+
+.magazine-img {
+  object-fit: cover;
+  height: 22vw;
+}
+
+.cat-link {
+  color: #f72210;
+}
+
+.cat-link:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.type {
+  background-color: #f72210;
+}
+
+.magazine-header-link {
+  font-size: 20px;
+  color: black;
+}
+
+.magazine-header-link:hover {
+  color: black;
+  text-decoration-color: #f72210;
+}
