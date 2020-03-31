@@ -268,7 +268,8 @@ nav {
 .latest-news-item,
 .magazine-title,
 .editors-title,
-.slide-title {
+.slide-title,
+.featured-section {
   border-bottom: 1px solid #d9d9d9;
 }
 
@@ -315,11 +316,13 @@ nav {
   }
 }
 
-.cat-link {
+.cat-link,
+.add-title-link {
   color: #f72210;
 }
 
-.cat-link:hover {
+.cat-link:hover,
+.add-title-link:hover {
   text-decoration: none;
   color: #f72210;
 }
