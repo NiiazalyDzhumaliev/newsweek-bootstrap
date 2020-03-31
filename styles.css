@@ -393,3 +393,7 @@ nav {
   height: 36px;
   fill: #f72210;
 }
+
+.footer-list {
+  list-style-type: none;
+}
