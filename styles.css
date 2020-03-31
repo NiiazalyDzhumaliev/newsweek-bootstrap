@@ -266,7 +266,8 @@ nav {
 .opinion-item,
 .more-stories-item,
 .latest-news-item,
-.magazine-title {
+.magazine-title,
+.editors-title {
   border-bottom: 1px solid #d9d9d9;
 }
 
