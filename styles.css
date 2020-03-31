@@ -263,7 +263,9 @@ nav {
   color: #555;
 }
 
-.opinion-item {
+.opinion-item,
+.more-stories-item,
+.latest-news-item {
   border-bottom: 1px solid #d9d9d9;
 }
 
