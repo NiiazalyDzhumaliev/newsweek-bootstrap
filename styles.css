@@ -270,7 +270,8 @@ nav {
 .magazine-title,
 .editors-title,
 .slide-title,
-.featured-section {
+.featured-section,
+.bottom-section {
   border-bottom: 1px solid #d9d9d9;
 }
 
@@ -385,4 +386,10 @@ nav {
 
 .newsletter-image {
   height: 20vw;
+}
+
+.newsweek-bootom-logo {
+  width: 236px;
+  height: 36px;
+  fill: #f72210;
 }
