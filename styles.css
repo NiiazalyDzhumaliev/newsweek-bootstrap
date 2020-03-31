@@ -397,3 +397,12 @@ nav {
 .footer-list {
   list-style-type: none;
 }
+
+.footer-link {
+  color: #666;
+}
+
+.footer-link:hover {
+  color: black;
+  text-decoration: none;
+}
