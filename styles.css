@@ -267,7 +267,8 @@ nav {
 .more-stories-item,
 .latest-news-item,
 .magazine-title,
-.editors-title {
+.editors-title,
+.slide-title {
   border-bottom: 1px solid #d9d9d9;
 }
 
@@ -335,4 +336,15 @@ nav {
 .magazine-header-link:hover {
   color: black;
   text-decoration-color: #f72210;
+}
+
+.slide-icon {
+  width: 70px;
+  height: 52px;
+}
+
+.category-slide {
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
 }
