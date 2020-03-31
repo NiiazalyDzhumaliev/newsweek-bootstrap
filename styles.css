@@ -306,9 +306,11 @@ nav {
   cursor: pointer;
 }
 
-.magazine-img {
-  object-fit: cover;
-  height: 22vw;
+@media screen and (min-width: 576px) {
+  .magazine-img {
+    object-fit: cover;
+    height: 22vw;
+  }
 }
 
 .cat-link {
