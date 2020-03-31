@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
+  overflow-x: hidden;
 }
 
 header {
@@ -380,4 +381,8 @@ nav {
 .subscribe-magazine-link:hover {
   color: white;
   text-decoration: none;
+}
+
+.newsletter-image {
+  height: 20vw;
 }
