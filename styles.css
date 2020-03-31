@@ -351,3 +351,33 @@ nav {
   left: 0;
   background-color: rgba(255, 255, 255, 0.9);
 }
+
+.subscribe-link {
+  font-size: 1rem;
+  color: #f72210;
+}
+
+.subscribe-link:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.subscribe-image2 {
+  top: 20px;
+  left: 30px;
+}
+
+.subscribe-header {
+  font-size: 24px;
+}
+
+.subscribe-magazine-link {
+  font-size: 17px;
+  background-color: #f72210;
+  color: white;
+}
+
+.subscribe-magazine-link:hover {
+  color: white;
+  text-decoration: none;
+}
