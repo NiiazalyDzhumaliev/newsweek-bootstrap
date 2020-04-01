@@ -298,13 +298,19 @@ nav {
   font-size: 17px;
 }
 
-.more-stories-link {
+.more-stories-link,
+.latest-news-link {
   color: #272727;
 }
 
 .more-stories-link:hover {
   color: #272727;
   text-decoration-color: #f72210;
+}
+
+.latest-news-link:hover {
+  text-decoration: none;
+  color: #f72210;
 }
 
 .more-stories-text {
