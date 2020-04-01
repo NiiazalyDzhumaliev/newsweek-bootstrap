@@ -52,6 +52,11 @@ header {
   margin-left: 10px;
   background-color: white;
   color: #f72210;
+  cursor: pointer;
+}
+
+.sign-in {
+  cursor: pointer;
 }
 
 .menu-icon {
@@ -84,6 +89,7 @@ header {
     display: block;
     margin-left: 20px;
     margin-right: 10px;
+    cursor: pointer;
   }
 
   .weather-medium {
@@ -107,6 +113,7 @@ header {
 }
 
 @media screen and (max-width: 600px) {
+
   .degree,
   .location,
   .cloud-icon,
@@ -289,6 +296,15 @@ nav {
 .more-stories-header,
 .latest-news-header {
   font-size: 17px;
+}
+
+.more-stories-link {
+  color: #272727;
+}
+
+.more-stories-link:hover {
+  color: #272727;
+  text-decoration-color: #f72210;
 }
 
 .more-stories-text {
