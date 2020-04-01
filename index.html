@@ -1,0 +1,2060 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/newsweek-icon.png" />
+    <title>Newsweek</title>
+  </head>
+  <body>
+    <header>
+      <div class="weather-date-container">
+        <div class="weather weather-medium">
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 395.6 60"
+            style="enable-background: new 0 0 395.6 60;"
+            xml:space="preserve"
+            class="newsweek-logo-medium"
+          >
+            <g>
+              <path
+                class="newsweek-logo-element"
+                d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+              ></path>
+            </g>
+          </svg>
+          <i class="fi-xwlux2-cloud-wide cloud-icon"></i>
+          <span class="degree">39</span>
+          <span class="location">Bishkek, KG</span>
+          <i class="fi-xnsrxx-chevron-solid location-arrow"></i>
+        </div>
+        <div class="date">
+          <span class="today-date">Wed, Mar 25, 2020</span>
+        </div>
+      </div>
+      <i
+        ><svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 395.6 60"
+          style="enable-background: new 0 0 395.6 60;"
+          xml:space="preserve"
+          class="newsweek-logo"
+        >
+          <g>
+            <path
+              class="newsweek-logo-element"
+              d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+            ></path>
+          </g>
+        </svg>
+      </i>
+      <div class="sign-subscribe-container sign-subscribe-mobile">
+        <span class="sign-in">sign-in</span>
+        <span class="subscribe"
+          >subscribe<i class="fi-xnsrxl-chevron-solid subscribe-arrow"></i
+        ></span>
+        <i class="fi-xnsuxx-three-bars-solid menu-icon"></i>
+      </div>
+    </header>
+    <div class="dropdown">
+      <span class="dropdown-tag"></span>
+    </div>
+    <nav>
+      <ul
+        class="nav nav-fill flex-nowrap d-none d-md-none d-lg-flex navbar-list"
+      >
+        <li class="nav-item navbar-list-item">
+          <a class="nav-link" href="#">U.S.</a>
+        </li>
+        <li class="nav-item navbar-list-item">
+          <a href="#" class="nav-link">World</a>
+        </li>
+        <li class="nav-item navbar-list-item">
+          <a href="#" class="nav-link">Business</a>
+        </li>
+        <li class="nav-item navbar-list-item">
+          <a href="#" class="nav-link text-nowrap">Tech & Science</a>
+        </li>
+        <li class="nav-item navbar-list-item">
+          <a href="#" class="nav-link">Culture</a>
+        </li>
+        <li class="nav-item navbar-list-item">
+          <a href="#" class="nav-link">Newsgeek</a>
+        </li>
+        <li class="nav-item navbar-list-item">
+          <a href="#" class="nav-link">Sports</a>
+        </li>
+        <li class="nav-item navbar-list-item">
+          <a href="#" class="nav-link">Health</a>
+        </li>
+        <li class="nav-item navbar-list-item">
+          <a href="#" class="nav-link text-nowrap">The Debate</a>
+        </li>
+        <li class="nav-item navbar-list-item">
+          <a href="#" class="nav-link">Vantage</a>
+        </li>
+        <li class="nav-item navbar-list-item">
+          <a href="#" class="nav-link">Weather</a>
+        </li>
+        <li class="nav-item navbar-search-container">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            class="navbar-search-input"
+            placeholder="Search"
+          />
+          <i class="fi-xtluh2-magnifying-glass-thin navbar-search-icon"></i>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="container-fluid mt-3">
+        <div class="row top-content">
+          <div class="col-12 col-lg-5 col-md-7 top-story">
+            <h4 class="top-story-header">top story</h4>
+            <div class="card mb-3 border-0 mb-4">
+              <div class="feature-image-container">
+                <img
+                  src="images/senate-passes-2-trillion-coronvirus-stimulus-bill.webp"
+                  class="card-img-top"
+                  alt="Senate"
+                />
+                <div class="category">
+                  <a href="#" class="category-link">U.S.</a>
+                </div>
+              </div>
+              <div class="card-body p-0">
+                <h5 class="card-title">
+                  <a href="#" class="card-title-link">
+                    Senate Unanimously Passes Coronavirus Stimulus, Includes
+                    Individual Checks</a
+                  >
+                </h5>
+                <p class="card-text">
+                  More than 1,000 people have died from the coronavirus in the
+                  United States alone, according to experts at Johns Hopkins
+                  University.
+                </p>
+              </div>
+            </div>
+            <div class="culture-travels-container pl-3 pr-3 d-none d-md-block">
+              <h4 class="culture-travel-header">
+                CULTURE & TRAVEL
+              </h4>
+              <div class="row">
+                <div class="card col border-0 p-0 mr-4 travel-culture-item">
+                  <img
+                    class="card-img-top"
+                    src="images/locked-down-italy-playing-music.webp"
+                    alt="Music player"
+                  />
+                  <div class="card-body p-0 mb-4">
+                    <h5 class="card-title travel-title">
+                      I'm Locked Down in Italy Playing Music—But I'm More
+                      Worried About America
+                    </h5>
+                    <p class="card-text travel-text">
+                      Two American musicians play a nightly concert on their
+                      balcony while quarantined in their newly adopted home in
+                      Italy. It's a gift for their neighbors, but they also have
+                      a strong message for Americans, too.
+                    </p>
+                  </div>
+                </div>
+                <div class="card col border-0 p-0 mr-4 travel-culture-item">
+                  <img
+                    class="card-img-top"
+                    src="images/times-square-new-york.webp"
+                    alt="Music player"
+                  />
+                  <div class="card-body p-0 mb-4">
+                    <h5 class="card-title travel-title">
+                      Social Distancing Around the World in Photos
+                    </h5>
+                    <p class="card-text travel-text">
+                      From Rome's desolate Spanish Steps to New York's deserted
+                      Times Square, take a look at some of the world's busiest
+                      landmarks that are all now but eerily empty.
+                    </p>
+                  </div>
+                </div>
+                <div class="card col border-0 p-0 travel-culture-item">
+                  <img
+                    class="card-img-top"
+                    src="images/breakfast-lunch-dinner.webp"
+                    alt="Music player"
+                  />
+                  <div class="card-body p-0 mb-4">
+                    <h5 class="card-title travel-title">
+                      Wanderlust Stricken? The 10 Best Travel TV Shows to Watch
+                      Now
+                    </h5>
+                    <p class="card-text travel-text">
+                      Travelers can still explore the world while binge-watching
+                      these travel TV shows in home isolation. Thanks to
+                      streaming services, we can virtually send ourselves to
+                      nearly any and every part of the planet in just a few
+                      clicks.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="more-stories-container d-none d-md-block mt-3">
+              <h4 class="more-stories-title text-uppercase">
+                more stories
+              </h4>
+              <div class="d-flex mb-3 more-stories-item">
+                <img
+                  src="images/chloroquine-hydrochloroquine-covid19-coronavirus-getty.webp"
+                  alt="Drug"
+                  class="more-stories-img mr-2"
+                />
+                <div class="more-stories-description">
+                  <h5 class="more-stories-header font-weight-bold">
+                    <a href="#" class="more-stories-link">
+                      FDA Says Hydroxychloroquine, Chloroquine Can Be Used to
+                      Treat Coronavirus</a
+                    >
+                  </h5>
+                  <p class="more-stories-text">
+                    Announcement comes after FDA commissioner cautioned
+                    chloroquine needs to be studied in a clinical trial when
+                    President Donald Trump touted it as a potential COVID-19
+                    treatment.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex mb-3 more-stories-item">
+                <img
+                  src="images/benjamin-netanyahu-israel-coronavirus-covid-19-self-isolation.webp"
+                  alt="Drug"
+                  class="more-stories-img mr-2"
+                />
+                <div class="more-stories-description">
+                  <h5 class="more-stories-header font-weight-bold">
+                    <a href="#" class="more-stories-link">
+                      Netanyahu Won't Need to Self-Isolate After Aide Gets
+                      Coronavirus: Office</a
+                    >
+                  </h5>
+                  <p class="more-stories-text">
+                    Rivka Paluch—Netanyahu's adviser on ultra-Orthodox
+                    affairs—tested positive after her husband was hospitalized
+                    with the virus.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex mb-3 more-stories-item">
+                <img
+                  src="images/rep-joe-kennedy-iii-arlington-cemetery.webp"
+                  alt="Drug"
+                  class="more-stories-img mr-2"
+                />
+                <div class="more-stories-description">
+                  <h5 class="more-stories-header font-weight-bold">
+                    <a href="#" class="more-stories-link">
+                      Rep. Joe Kennedy Says Donald Trump Is Using DPA to
+                      'Penalize' One Company</a
+                    >
+                  </h5>
+                  <p class="more-stories-text">
+                    The Massachusetts Democrat said health care workers were in
+                    "desperate need" of medical materials amid nationwide
+                    shortages.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex mb-3 more-stories-item">
+                <img
+                  src="images/donald-trump-masks-hospital-new-york-thefts.webp"
+                  alt="Drug"
+                  class="more-stories-img mr-2"
+                />
+                <div class="more-stories-description">
+                  <h5 class="more-stories-header font-weight-bold">
+                    <a href="#" class="more-stories-link">
+                      Trump Comments About Hospital Mask Thefts Spark Backlash
+                      From Doctors</a
+                    >
+                  </h5>
+                  <p class="more-stories-text">
+                    Medical workers across the U.S. say they are in desperately
+                    short supply of protective equipment such as masks as they
+                    grapple with the coronavirus pandemic.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex mb-3 more-stories-item">
+                <img
+                  src="images/donald-trump-dr-anthony-fauci.webp"
+                  alt="Drug"
+                  class="more-stories-img mr-2"
+                />
+                <div class="more-stories-description">
+                  <h5 class="more-stories-header font-weight-bold">
+                    <a href="#" class="more-stories-link">
+                      GOP Governor Says Trump's Message to Reopen Economy Soon
+                      'Isn't Helpful'</a
+                    >
+                  </h5>
+                  <p class="more-stories-text">
+                    "We've got messaging coming out saying that things are OK,
+                    and you should get back to normal," Larry Hogan said. "It
+                    does conflict and it hurts with the message."
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex mb-3 more-stories-item">
+                <img
+                  src="images/trump.webp"
+                  alt="Drug"
+                  class="more-stories-img mr-2"
+                />
+                <div class="more-stories-description">
+                  <h5 class="more-stories-header font-weight-bold">
+                    <a href="#" class="more-stories-link">
+                      First Infant with Coronavirus in U.S. Dies as 125,000 Test
+                      Positive</a
+                    >
+                  </h5>
+                  <p class="more-stories-text">
+                    President Donald Trump said he was considering a quarantine
+                    of New York, but said it was "not necessary" after Governor
+                    Andrew Cuomo said it would amount to a "federal declaration
+                    of war."
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex mb-3 border-0 more-stories-item">
+                <img
+                  src="images/dr-anthony-fauci-jake-tapper.webp"
+                  alt="Drug"
+                  class="more-stories-img mr-2"
+                />
+                <div class="more-stories-description">
+                  <h5 class="more-stories-header font-weight-bold">
+                    <a href="#" class="more-stories-link">
+                      Dr. Fauci Defends Trump, Task Force Amid Right-Wing
+                      Attacks Against Him</a
+                    >
+                  </h5>
+                  <p class="more-stories-text">
+                    He also warned that there could be between 100,000-200,000
+                    deaths in the U.S. from the disease.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg col-md order-md-first featured-stories">
+            <h4 class="featured-stories-header">featured stories</h4>
+            <div class="card mb-3 border-0">
+              <div class="feature-image-container">
+                <img
+                  src="images/coronavirus-stock.jpg"
+                  class="card-img-top"
+                  alt="Coronavirus"
+                />
+                <div class="category">
+                  <a href="#" class="category-link">U.S.</a>
+                </div>
+              </div>
+              <div class="card-body p-0">
+                <h5 class="card-title">
+                  <a href="#" class="card-title-link">
+                    U.S. Coronavirus Death Toll Passes 1,000 Mark</a
+                  >
+                </h5>
+                <p class="card-text">
+                  More than 1,000 people have died from the coronavirus in the
+                  United States alone, according to experts at Johns Hopkins
+                  University.
+                </p>
+              </div>
+            </div>
+            <div class="card mb-3 border-0">
+              <div class="feature-image-container">
+                <img
+                  src="images/trump-ghs-index.jpg"
+                  class="card-img-top"
+                  alt="Trump"
+                />
+                <div class="category">
+                  <a href="#" class="category-link">NEWS</a>
+                </div>
+              </div>
+              <div class="card-body p-0">
+                <h5 class="card-title">
+                  <a href="#" class="card-title-link">
+                    2019 Health Study Showed Global Lack of Preparedness for
+                    Pandemic</a
+                  >
+                </h5>
+                <p class="card-text">
+                  More than 1,000 people have died from the coronavirus in the
+                  United States alone, according to experts at Johns Hopkins
+                  University.
+                </p>
+              </div>
+            </div>
+            <div class="card mb-3 border-0">
+              <div class="feature-image-container">
+                <img
+                  src="images/ventilator.webp"
+                  class="card-img-top"
+                  alt="Ventilator"
+                />
+                <div class="category">
+                  <a href="#" class="category-link">NEWS</a>
+                </div>
+              </div>
+              <div class="card-body p-0">
+                <h5 class="card-title">
+                  <a href="#" class="card-title-link">
+                    Alabama Plan Could Disqualify Specific People From
+                    Ventilator Access</a
+                  >
+                </h5>
+                <p class="card-text">
+                  More than 1,000 people have died from the coronavirus in the
+                  United States alone, according to experts at Johns Hopkins
+                  University.
+                </p>
+              </div>
+            </div>
+            <div class="card mb-3 border-0">
+              <div class="feature-image-container">
+                <img
+                  src="images/nancy-pelosi.webp"
+                  class="card-img-top"
+                  alt="Nancy-pelosi"
+                />
+                <div class="category">
+                  <a href="#" class="category-link">NEWS</a>
+                </div>
+              </div>
+              <div class="card-body p-0">
+                <h5 class="card-title">
+                  <a href="#" class="card-title-link">
+                    Nancy Pelosi Says Trump's Response to Coronavirus Has Been
+                    'Deadly'</a
+                  >
+                </h5>
+                <p class="card-text">
+                  More than 1,000 people have died from the coronavirus in the
+                  United States alone, according to experts at Johns Hopkins
+                  University.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg opinion">
+            <h4 class="opinion-header">opinion</h4>
+            <div class="d-flex opinion-item">
+              <img
+                src="images/lauren-brooke-eisen-jennifer-weiss-wolf.png"
+                alt="Lauren Brooke"
+                class="mr-3 opinion-image"
+              />
+              <div>
+                <h5>
+                  <a href="#" class="opinion-item-link"
+                    >No Soap. Broken Sinks. We Will All Pay for Coronavirus
+                    Ravaging Prisons</a
+                  >
+                </h5>
+                <p class="opinion-author">
+                  BY LAUREN-BROOKE EISEN AND JENNIFER WEISS-WOLF
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mt-3 opinion-item">
+              <img
+                src="images/newt-gingrich.png"
+                alt="Lauren Brooke"
+                class="mr-3 opinion-image"
+              />
+              <div>
+                <h5>
+                  <a href="#" class="opinion-item-link"
+                    >How China Mismanaged and Lied About Coronavirus—Then Blamed
+                    America</a
+                  >
+                </h5>
+                <p class="opinion-author">
+                  BY NEWT GINGRICH
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mt-3 opinion-item">
+              <img
+                src="images/swalwell2.png"
+                alt="Lauren Brooke"
+                class="mr-3 opinion-image"
+              />
+              <div>
+                <h5>
+                  <a href="#" class="opinion-item-link"
+                    >Barr's Power Grab Amid the Pandemic Is Unconstitutional—and
+                    Unnecessary</a
+                  >
+                </h5>
+                <p class="opinion-author">
+                  BY ERIC SWALWELL
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mt-3 opinion-item">
+              <img
+                src="images/tom-rogers.png"
+                alt="Lauren Brooke"
+                class="mr-3 opinion-image"
+              />
+              <div>
+                <h5>
+                  <a href="#" class="opinion-item-link"
+                    >If CEOs Are Left to Exploit the Bailout, Watch All This
+                    Fear Turn to Anger</a
+                  >
+                </h5>
+                <p class="opinion-author">
+                  BY TOM ROGERS
+                </p>
+              </div>
+            </div>
+            <div class="d-none d-md-block pl-0 pr-0 mt-3 latest-news-container">
+              <h4 class="latest-news-title">latest news</h4>
+              <div class="d-flex mb-3 pb-3 latest-news-item">
+                <img
+                  src="images/wimbledon.webp"
+                  alt="Drug"
+                  class="latest-news-img-img mr-2"
+                />
+                <h5 class="latest-news-header font-weight-bold">
+                  <a href="#" class="latest-news-link"
+                    >Michigan State Rep. Dies from Suspected Coronavirus
+                    Infection in Detroit</a
+                  >
+                </h5>
+              </div>
+              <div class="d-flex mb-3 pb-3 latest-news-item">
+                <img
+                  src="images/walking-dead-princess.webp"
+                  alt="Drug"
+                  class="latest-news-img-img mr-2"
+                />
+                <h5 class="latest-news-header font-weight-bold">
+                  <a href="#" class="latest-news-link"
+                    >'The Walking Dead': What Princess' Introduction Means For
+                    The AMC Show</a
+                  >
+                </h5>
+              </div>
+              <div class="d-flex mb-3 pb-3 latest-news-item">
+                <img
+                  src="images/noaa-rainfall-forecast-033020.webp"
+                  alt="Drug"
+                  class="latest-news-img-img mr-2"
+                />
+                <h5 class="latest-news-header font-weight-bold">
+                  <a href="#" class="latest-news-link"
+                    >NWS Issues Flood Warnings for Rivers in Georgia, Wisconsin
+                    and Tennessee</a
+                  >
+                </h5>
+              </div>
+              <div class="d-flex mb-3 pb-3 latest-news-item">
+                <img
+                  src="images/surgery.webp"
+                  alt="Drug"
+                  class="latest-news-img-img mr-2"
+                />
+                <h5 class="latest-news-header font-weight-bold">
+                  <a href="#" class="latest-news-link"
+                    >World's Largest Recorded Spleen Removed From Man in
+                    Florida</a
+                  >
+                </h5>
+              </div>
+              <div class="d-flex mb-3 pb-3 border-0 latest-news-item">
+                <img
+                  src="images/remote-work-01-banner.webp"
+                  alt="Drug"
+                  class="latest-news-img-img mr-2"
+                />
+                <h5 class="latest-news-header font-weight-bold">
+                  <a href="#" class="latest-news-link"
+                    >The Coronavirus Will Change How We Work Forever</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mt-5 d-md-none more-stories-container">
+            <h4 class="more-stories-title text-uppercase">
+              more stories
+            </h4>
+            <div class="d-flex mb-3 more-stories-item">
+              <img
+                src="images/chloroquine-hydrochloroquine-covid19-coronavirus-getty.webp"
+                alt="Drug"
+                class="more-stories-img mr-2"
+              />
+              <div class="more-stories-description">
+                <h5 class="more-stories-header font-weight-bold">
+                  <a href="#" class="more-stories-link">
+                    FDA Says Hydroxychloroquine, Chloroquine Can Be Used to
+                    Treat Coronavirus</a
+                  >
+                </h5>
+                <p class="more-stories-text">
+                  Announcement comes after FDA commissioner cautioned
+                  chloroquine needs to be studied in a clinical trial when
+                  President Donald Trump touted it as a potential COVID-19
+                  treatment.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-3 more-stories-item">
+              <img
+                src="images/benjamin-netanyahu-israel-coronavirus-covid-19-self-isolation.webp"
+                alt="Drug"
+                class="more-stories-img mr-2"
+              />
+              <div class="more-stories-description">
+                <h5 class="more-stories-header font-weight-bold">
+                  <a href="#" class="more-stories-link">
+                    Netanyahu Won't Need to Self-Isolate After Aide Gets
+                    Coronavirus: Office</a
+                  >
+                </h5>
+                <p class="more-stories-text">
+                  Rivka Paluch—Netanyahu's adviser on ultra-Orthodox
+                  affairs—tested positive after her husband was hospitalized
+                  with the virus.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-3 more-stories-item">
+              <img
+                src="images/rep-joe-kennedy-iii-arlington-cemetery.webp"
+                alt="Drug"
+                class="more-stories-img mr-2"
+              />
+              <div class="more-stories-description">
+                <h5 class="more-stories-header font-weight-bold">
+                  <a href="#" class="more-stories-link">
+                    Rep. Joe Kennedy Says Donald Trump Is Using DPA to
+                    'Penalize' One Company</a
+                  >
+                </h5>
+                <p class="more-stories-text">
+                  The Massachusetts Democrat said health care workers were in
+                  "desperate need" of medical materials amid nationwide
+                  shortages.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-3 more-stories-item">
+              <img
+                src="images/donald-trump-masks-hospital-new-york-thefts.webp"
+                alt="Drug"
+                class="more-stories-img mr-2"
+              />
+              <div class="more-stories-description">
+                <h5 class="more-stories-header font-weight-bold">
+                  <a href="#" class="more-stories-link">
+                    Trump Comments About Hospital Mask Thefts Spark Backlash
+                    From Doctors</a
+                  >
+                </h5>
+                <p class="more-stories-text">
+                  Medical workers across the U.S. say they are in desperately
+                  short supply of protective equipment such as masks as they
+                  grapple with the coronavirus pandemic.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-3 more-stories-item">
+              <img
+                src="images/donald-trump-dr-anthony-fauci.webp"
+                alt="Drug"
+                class="more-stories-img mr-2"
+              />
+              <div class="more-stories-description">
+                <h5 class="more-stories-header font-weight-bold">
+                  <a href="#" class="more-stories-link">
+                    GOP Governor Says Trump's Message to Reopen Economy Soon
+                    'Isn't Helpful'</a
+                  >
+                </h5>
+                <p class="more-stories-text">
+                  "We've got messaging coming out saying that things are OK, and
+                  you should get back to normal," Larry Hogan said. "It does
+                  conflict and it hurts with the message."
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-3 more-stories-item">
+              <img
+                src="images/trump.webp"
+                alt="Drug"
+                class="more-stories-img mr-2"
+              />
+              <div class="more-stories-description">
+                <h5 class="more-stories-header font-weight-bold">
+                  <a href="#" class="more-stories-link">
+                    First Infant with Coronavirus in U.S. Dies as 125,000 Test
+                    Positive</a
+                  >
+                </h5>
+                <p class="more-stories-text">
+                  President Donald Trump said he was considering a quarantine of
+                  New York, but said it was "not necessary" after Governor
+                  Andrew Cuomo said it would amount to a "federal declaration of
+                  war."
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-3 more-stories-item">
+              <img
+                src="images/dr-anthony-fauci-jake-tapper.webp"
+                alt="Drug"
+                class="more-stories-img mr-2"
+              />
+              <div class="more-stories-description">
+                <h5 class="more-stories-header font-weight-bold">
+                  <a href="#" class="more-stories-link">
+                    Dr. Fauci Defends Trump, Task Force Amid Right-Wing Attacks
+                    Against Him</a
+                  >
+                </h5>
+                <p class="more-stories-text">
+                  He also warned that there could be between 100,000-200,000
+                  deaths in the U.S. from the disease.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-3 more-stories-item">
+              <img
+                src="images/prisoner-lousiana.webp"
+                alt="Drug"
+                class="more-stories-img mr-2"
+              />
+              <div class="more-stories-description">
+                <h5 class="more-stories-header font-weight-bold">
+                  <a href="#" class="more-stories-link">
+                    Federal Inmate, 49, Dies from Coronavirus at Louisiana
+                    Prison</a
+                  >
+                </h5>
+                <p class="more-stories-text">
+                  Jails and prisons across the United States are reporting an
+                  increase of COVID-19.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-3 more-stories-item">
+              <img
+                src="images/john-bel-edwards-margaret-brennan.webp"
+                alt="Drug"
+                class="more-stories-img mr-2"
+              />
+              <div class="more-stories-description">
+                <h5 class="more-stories-header font-weight-bold">
+                  <a href="#" class="more-stories-link">
+                    Louisiana Gov on Not Canceling Mardi Gras: No One in Fed
+                    Gov't Told Us To</a
+                  >
+                </h5>
+                <p class="more-stories-text">
+                  Governor John Bel Edwards reiterated Sunday that last month's
+                  Mardi Gras celebrations weren't cancelled or downsized because
+                  "not one person" at the federal level directed the state to
+                  take such action - but he said it's now time to move forward.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-3 more-stories-item">
+              <img
+                src="images/tornado.webp"
+                alt="Drug"
+                class="more-stories-img mr-2"
+              />
+              <div class="more-stories-description">
+                <h5 class="more-stories-header font-weight-bold">
+                  <a href="#" class="more-stories-link">
+                    Over a Dozen Tornadoes Are Reported Across Central U.S. Amid
+                    Severe Weather</a
+                  >
+                </h5>
+                <p class="more-stories-text">
+                  Six people were injured by a large tornado which struck the
+                  city of Jonesboro in Arkansas.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-3 more-stories-item">
+              <img
+                src="images/isaac-robinson.webp"
+                alt="Drug"
+                class="more-stories-img mr-2"
+              />
+              <div class="more-stories-description">
+                <h5 class="more-stories-header font-weight-bold">
+                  <a href="#" class="more-stories-link">
+                    Michigan State Rep. Dies from Suspected Coronavirus
+                    Infection in Detroit</a
+                  >
+                </h5>
+                <p class="more-stories-text">
+                  The 44-year-old Democrat's mother said her son had been
+                  experiencing breathing problems for days but was not tested
+                  for COVID-19.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md d-md-none culture-travels-container">
+            <h4 class="culture-travel-header">
+              CULTURE & TRAVEL
+            </h4>
+            <div class="card col-md border-0 p-0 travel-culture-item">
+              <img
+                class="card-img-top"
+                src="images/locked-down-italy-playing-music.webp"
+                alt="Music player"
+              />
+              <div class="card-body p-0 mb-4">
+                <h5 class="card-title travel-title">
+                  I'm Locked Down in Italy Playing Music—But I'm More Worried
+                  About America
+                </h5>
+                <p class="card-text travel-text">
+                  Two American musicians play a nightly concert on their balcony
+                  while quarantined in their newly adopted home in Italy. It's a
+                  gift for their neighbors, but they also have a strong message
+                  for Americans, too.
+                </p>
+              </div>
+            </div>
+            <div class="card col-md border-0 p-0 travel-culture-item">
+              <img
+                class="card-img-top"
+                src="images/times-square-new-york.webp"
+                alt="Music player"
+              />
+              <div class="card-body p-0 mb-4">
+                <h5 class="card-title travel-title">
+                  Social Distancing Around the World in Photos
+                </h5>
+                <p class="card-text travel-text">
+                  From Rome's desolate Spanish Steps to New York's deserted
+                  Times Square, take a look at some of the world's busiest
+                  landmarks that are all now but eerily empty.
+                </p>
+              </div>
+            </div>
+            <div class="card col-md border-0 p-0 travel-culture-item">
+              <img
+                class="card-img-top"
+                src="images/breakfast-lunch-dinner.webp"
+                alt="Music player"
+              />
+              <div class="card-body p-0 mb-4">
+                <h5 class="card-title travel-title">
+                  Wanderlust Stricken? The 10 Best Travel TV Shows to Watch Now
+                </h5>
+                <p class="card-text travel-text">
+                  Travelers can still explore the world while binge-watching
+                  these travel TV shows in home isolation. Thanks to streaming
+                  services, we can virtually send ourselves to nearly any and
+                  every part of the planet in just a few clicks.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-md-none mt-3 latest-news-container">
+            <h4 class="latest-news-title">latest news</h4>
+            <div class="d-flex mb-3 pb-3 latest-news-item">
+              <img
+                src="images/wimbledon.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >Michigan State Rep. Dies from Suspected Coronavirus Infection
+                  in Detroit</a
+                >
+              </h5>
+            </div>
+            <div class="d-flex mb-3 pb-3 latest-news-item">
+              <img
+                src="images/walking-dead-princess.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >'The Walking Dead': What Princess' Introduction Means For The
+                  AMC Show</a
+                >
+              </h5>
+            </div>
+            <div class="d-flex mb-3 pb-3 latest-news-item">
+              <img
+                src="images/noaa-rainfall-forecast-033020.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >NWS Issues Flood Warnings for Rivers in Georgia, Wisconsin
+                  and Tennessee</a
+                >
+              </h5>
+            </div>
+            <div class="d-flex mb-3 pb-3 latest-news-item">
+              <img
+                src="images/surgery.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >World's Largest Recorded Spleen Removed From Man in
+                  Florida</a
+                >
+              </h5>
+            </div>
+            <div class="d-flex mb-3 pb-3 border-0 latest-news-item">
+              <img
+                src="images/remote-work-01-banner.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >The Coronavirus Will Change How We Work Forever</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <h4 class="magazine-title pb-2 w-100 text-center text-uppercase">
+            <img
+              src="images/newsweek-icon.png"
+              alt="newsweek-icon"
+              class="magazine-icon"
+            />
+            in the magazine
+          </h4>
+          <div class="col-md-3 mt-2 magazine-item">
+            <div class="magazine-image-container position-relative">
+              <img
+                src="images/april-03-2020-cover.webp"
+                alt="Magazine"
+                class="magazine-cover-img w-100"
+              />
+              <div class="category">
+                <a href="#" class="category-link text-uppercase"
+                  >april 03 issue</a
+                >
+              </div>
+            </div>
+            <h4
+              class="cover-title w-100 pt-3 pb-2 bg-light text-center text-uppercase font-weight-bold"
+            >
+              see all the features<i
+                class="fi-xnsrxl-chevron-solid subscribe-arrow"
+              ></i>
+            </h4>
+          </div>
+          <div class="col-md-3 mt-4">
+            <img
+              src="images/fe-covid-cure-opener.webp"
+              alt="Covid"
+              class="magazine-img w-100"
+            />
+            <div class="magazine-category mt-2 mb-2">
+              <span
+                class="type text-uppercase text-white font-weight-bold pl-2 pr-2 pb-1 pt-1"
+                >cover</span
+              ><a
+                href="#"
+                class="cat-link ml-3 text-uppercase text-nowrap font-weight-bold"
+                >tech & science</a
+              >
+            </div>
+            <h4 class="magazine-item-header">
+              <a href="#" class="magazine-header-link font-weight-bold"
+                >Is Hydroxychloroquine the Answer to COVID-19 Pandemic? Racing
+                For a Cure</a
+              >
+            </h4>
+          </div>
+          <div class="col-md-3 mt-4">
+            <img
+              src="images/closed-restaurant-california-coronavirus.webp"
+              alt="Covid"
+              class="magazine-img w-100"
+            />
+            <div class="magazine-category mt-2 mb-2">
+              <span
+                class="type text-uppercase text-white font-weight-bold pl-2 pr-2 pb-1 pt-1"
+                >FEATURES</span
+              ><a href="#" class="cat-link ml-3 text-uppercase font-weight-bold"
+                >BUSINESS</a
+              >
+            </div>
+            <h4 class="magazine-item-header">
+              <a href="#" class="magazine-header-link font-weight-bold"
+                >9 Smart Money Moves to Make Amid the Coronavirus Pandemic</a
+              >
+            </h4>
+          </div>
+          <div class="col-md-3 mt-4">
+            <img
+              src="images/tony-blair-joe-biden-2020-donald-trump.webp"
+              alt="Covid"
+              class="magazine-img w-100"
+            />
+            <div class="magazine-category mt-2 mb-2">
+              <span
+                class="type text-uppercase text-white font-weight-bold pl-2 pr-2 pb-1 pt-1"
+                >PERISCOPE</span
+              ><a href="#" class="cat-link ml-3 text-uppercase font-weight-bold"
+                >POLITICS</a
+              >
+            </div>
+            <h4 class="magazine-item-header">
+              <a href="#" class="magazine-header-link font-weight-bold"
+                >Tony Blair Says Biden Must Offer More Than 'Back to Normal' to
+                Beat Trump</a
+              >
+            </h4>
+          </div>
+          <div class="col-md-3 mt-4">
+            <img
+              src="images/per-president-01.webp"
+              alt="Covid"
+              class="magazine-img w-100"
+            />
+            <div class="magazine-category mt-2 mb-2">
+              <span
+                class="type text-uppercase text-white font-weight-bold pl-2 pr-2 pb-1 pt-1"
+                >periscope</span
+              ><a
+                href="#"
+                class="cat-link ml-3 text-uppercase text-nowrap font-weight-bold"
+                >culture</a
+              >
+            </div>
+            <h4 class="magazine-item-header">
+              <a href="#" class="magazine-header-link font-weight-bold"
+                >This Is What's Wrong With How We Elect a President—And How to
+                Fix It</a
+              >
+            </h4>
+          </div>
+          <div class="col-md-3 mt-4">
+            <img
+              src="images/tom-brady-new-england-patriots.webp"
+              alt="Covid"
+              class="magazine-img w-100"
+            />
+            <div class="magazine-category mt-2 mb-2">
+              <span
+                class="type text-uppercase text-white font-weight-bold pl-2 pr-2 pb-1 pt-1"
+                >DOWNTIME</span
+              ><a
+                href="#"
+                class="cat-link ml-3 text-uppercase text-nowrap font-weight-bold"
+                >culture</a
+              >
+            </div>
+            <h4 class="magazine-item-header">
+              <a href="#" class="magazine-header-link font-weight-bold"
+                >The Four Greatest 'Tom Brady' Moments of Tom Brady's Patriots
+                Career</a
+              >
+            </h4>
+          </div>
+          <div class="col-md-3 mt-4">
+            <img
+              src="images/cul-uncharted-coffee-banner.webp"
+              alt="Covid"
+              class="magazine-img w-100"
+            />
+            <div class="magazine-category mt-2 mb-2">
+              <span
+                class="type text-uppercase text-white font-weight-bold pl-2 pr-2 pb-1 pt-1"
+                >DOWNTIME</span
+              ><a
+                href="#"
+                class="cat-link ml-3 text-uppercase text-nowrap font-weight-bold"
+                >culture</a
+              >
+            </div>
+            <h4 class="magazine-item-header">
+              <a href="#" class="magazine-header-link font-weight-bold"
+                >How The World Takes Its Coffee</a
+              >
+            </h4>
+          </div>
+          <div class="col-md-3 mt-4">
+            <img
+              src="images/congress-eyes-infrastructure-phase-4-stimulus.webp"
+              alt="Covid"
+              class="magazine-img w-100"
+            />
+            <div class="magazine-category mt-2 mb-2">
+              <span
+                class="type text-uppercase text-white font-weight-bold pl-2 pr-2 pb-1 pt-1"
+                >periscope</span
+              ><a
+                href="#"
+                class="cat-link ml-3 text-uppercase text-nowrap font-weight-bold"
+                >culture</a
+              >
+            </div>
+            <h4 class="magazine-item-header">
+              <a href="#" class="magazine-header-link font-weight-bold"
+                >Congress Eyes Infrastructure Projects in Next Coronavirus
+                Stimulus Phase</a
+              >
+            </h4>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <h4 class="editors-title pb-2 w-100 text-center text-uppercase">
+            <img
+              src="images/newsweek-icon.png"
+              alt="newsweek-icon"
+              class="magazine-icon"
+            />
+            editor's pick
+          </h4>
+          <div class="col-lg-3 col-md-6 mt-2 card mb-3 border-0">
+            <div class="editors-image-container position-relative">
+              <img
+                src="images/coronavirus-italy-covid19-getty.webp"
+                class="card-img-top"
+                alt="Coronavirus"
+              />
+              <div class="category">
+                <a href="#" class="category-link text-uppercase">health</a>
+              </div>
+            </div>
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  COVID-19 Patients Can Carry Coronavirus after Symptoms Have
+                  Resolved: Study</a
+                >
+              </h5>
+              <p class="card-text">
+                The research involved 16 COVID-19 patients in China.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-2 card mb-3 border-0">
+            <div class="editors-image-container position-relative">
+              <img
+                src="images/culture-hollywood-01.webp"
+                class="card-img-top"
+                alt="Coronavirus"
+              />
+              <div class="category">
+                <a href="#" class="category-link text-uppercase">CULTURE</a>
+              </div>
+            </div>
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  Hollywood Takes An Economic Beating from COVID-19</a
+                >
+              </h5>
+              <p class="card-text">
+                No one knows just how bad it ultimately will be, but
+                coronavirus' financial damage to showbiz has already been severe
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-2 card mb-3 border-0">
+            <div class="editors-image-container position-relative">
+              <img
+                src="images/donald-trump-kim-jong-un-north-korea.webp"
+                class="card-img-top"
+                alt="Coronavirus"
+              />
+              <div class="category">
+                <a href="#" class="category-link text-uppercase">world</a>
+              </div>
+            </div>
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  North Korea Says Even Trump-Kim Friendship Can't Save U.S.
+                  Talks</a
+                >
+              </h5>
+              <p class="card-text">
+                A North Korean official suggested that Secretary of State Mike
+                Pompeo is undermining floundering disarmament talks.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-2 card mb-3 border-0">
+            <div class="editors-image-container position-relative">
+              <img
+                src="images/charles.webp"
+                class="card-img-top"
+                alt="Coronavirus"
+              />
+              <div class="category">
+                <a href="#" class="category-link text-uppercase">world</a>
+              </div>
+            </div>
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  Prince Charles Recovers From Coronavirus, Exits Self-Isolation
+                  After 7 Days</a
+                >
+              </h5>
+              <p class="card-text">
+                The 71-year-old, who is heir to the British throne, spent seven
+                days in quarantine at his home on the Balmoral estate in
+                Scotland.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-2 card mb-3 border-0">
+            <div class="editors-image-container position-relative">
+              <img
+                src="images/president-donald-trump-coronavirus-task-force.webp"
+                class="card-img-top"
+                alt="Coronavirus"
+              />
+              <div class="category">
+                <a href="#" class="category-link text-uppercase">u.s.</a>
+              </div>
+            </div>
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  Trump Calls Pelosi a 'Sick Puppy' Over Coronavirus Response
+                  Criticism</a
+                >
+              </h5>
+              <p class="card-text">
+                The president told Fox & Friends on Monday that the federal
+                government could "take over" San Francisco and "clean it up."
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-2 card mb-3 border-0">
+            <div class="editors-image-container position-relative">
+              <img
+                src="images/disney-parks.webp"
+                class="card-img-top"
+                alt="Coronavirus"
+              />
+              <div class="category">
+                <a href="#" class="category-link text-uppercase">u.s.</a>
+              </div>
+            </div>
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  Man Given $1,000 Fine for Surfing During Coronavirus
+                  Lockdown</a
+                >
+              </h5>
+              <p class="card-text">
+                A man has been given a $1,000 fine after he went surfing despite
+                being told not to by police and lifeguards.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-2 card mb-3 border-0">
+            <div class="editors-image-container position-relative">
+              <img
+                src="images/karaoke-party.webp"
+                class="card-img-top"
+                alt="Coronavirus"
+              />
+              <div class="category">
+                <a href="#" class="category-link text-uppercase">world</a>
+              </div>
+            </div>
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  Police Break Up Massive Karaoke Party During Coronavirus
+                  Lockdown</a
+                >
+              </h5>
+              <p class="card-text">
+                Officers in Derbyshire, U.K., broke up a party of 25 adults and
+                children that took place despite the government urging British
+                citizens to stay at home to slow the spread of the coronavirus.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-2 card mb-3 border-0">
+            <div class="editors-image-container position-relative">
+              <img
+                src="images/stephon-marbury.webp"
+                class="card-img-top"
+                alt="Coronavirus"
+              />
+              <div class="category">
+                <a href="#" class="category-link text-uppercase">sports</a>
+              </div>
+            </div>
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  Stephon Marbury to Deliver 10 Million Medical Masks From China
+                  to New York</a
+                >
+              </h5>
+              <p class="card-text">
+                A New York City native, Marbury spent five seasons with the
+                Knicks during his 13-year NBA career and said his gesture was a
+                way to give back to his community.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3 featured-section">
+          <h4 class="slide-title pb-2 w-100 text-center text-uppercase">
+            <img
+              src="images/newsweek-icon.png"
+              alt="newsweek-icon"
+              class="magazine-icon"
+            />
+            FEATURED SLIDESHOWS
+          </h4>
+          <div class="col-md-4 mt-2 card mb-3 border-0">
+            <div class="slide-image-container position-relative">
+              <img
+                src="images/tozeur-tunisia.webp"
+                class="card-img-top"
+                alt="Coronavirus"
+              />
+              <div class="category-slide position-absolute">
+                <a href="#" class="category-link text-uppercase"
+                  ><img
+                    src="images/icon-slideshows-nw.png"
+                    alt="Drug"
+                    class="slide-icon"
+                /></a>
+              </div>
+            </div>
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  Relive the 'Star Wars' Saga at These Filming Locations</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 mt-2 card mb-3 border-0">
+            <div class="slide-image-container position-relative">
+              <img
+                src="images/eyjafjallajokull-iceland.webp"
+                class="card-img-top"
+                alt="Coronavirus"
+              />
+              <div class="category-slide position-absolute">
+                <a href="#" class="category-link text-uppercase"
+                  ><img
+                    src="images/icon-slideshows-nw.png"
+                    alt="Drug"
+                    class="slide-icon"
+                /></a>
+              </div>
+            </div>
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  Active Volcanoes Around the World That Could Erupt at Any
+                  Moment</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 mt-2 card mb-3 border-0">
+            <div class="slide-image-container position-relative">
+              <img
+                src="images/lipschutz-living-room-hotel-chelsea.webp"
+                class="card-img-top"
+                alt="Coronavirus"
+              />
+              <div class="category-slide position-absolute">
+                <a href="#" class="category-link text-uppercase"
+                  ><img
+                    src="images/icon-slideshows-nw.png"
+                    alt="Drug"
+                    class="slide-icon"
+                /></a>
+              </div>
+            </div>
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  Inside the Last Bohemian Apartments of the Storied Hotel
+                  Chelsea</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h4 class="add-section-title mt-3 ml-3 mb-0 w-100">
+            <a href="#" class="add-title-link font-weight-bold">U.S.</a>
+          </h4>
+          <div class="col-md-4 mt-2 card mb-3 border-0">
+            <img
+              src="images/idaho.webp"
+              class="card-img-top"
+              alt="Coronavirus"
+            />
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  Idaho Governor Bans Trans People From Changing Birth
+                  Certificate Gender</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 mt-2 card mb-3 border-0">
+            <img
+              src="images/mark-meadows.webp"
+              class="card-img-top"
+              alt="Coronavirus"
+            />
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  Who is Mark Meadows? Former Congressman Becomes White House
+                  Chief of Staff</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 mt-2">
+            <div class="d-flex mb-3 pb-3 latest-news-item">
+              <img
+                src="images/wimbledon.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >Michigan State Rep. Dies from Suspected Coronavirus Infection
+                  in Detroit</a
+                >
+              </h5>
+            </div>
+            <div class="d-flex mb-3 pb-3 latest-news-item">
+              <img
+                src="images/walking-dead-princess.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >'The Walking Dead': What Princess' Introduction Means For The
+                  AMC Show</a
+                >
+              </h5>
+            </div>
+            <div class="d-flex mb-3 pb-3 border-0 latest-news-item">
+              <img
+                src="images/noaa-rainfall-forecast-033020.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >NWS Issues Flood Warnings for Rivers in Georgia, Wisconsin
+                  and Tennessee</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h4 class="add-section-title mt-3 ml-3 mb-0 w-100">
+            <a href="#" class="add-title-link font-weight-bold">World</a>
+          </h4>
+          <div class="col-md-4 mt-2 card mb-3 border-0">
+            <img
+              src="images/coronavirus(1).webp"
+              class="card-img-top"
+              alt="Coronavirus"
+            />
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  13-Year-Old Boy Dies After Testing Positive for Coronavirus</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 mt-2 card mb-3 border-0">
+            <img
+              src="images/denis-protsenko-putin.webp"
+              class="card-img-top"
+              alt="Coronavirus"
+            />
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  Russian Doctor Who Shook Hands With Vladimir Putin Has
+                  Coronavirus</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 mt-2">
+            <div class="d-flex mb-3 pb-3 latest-news-item">
+              <img
+                src="images/wimbledon.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >Michigan State Rep. Dies from Suspected Coronavirus Infection
+                  in Detroit</a
+                >
+              </h5>
+            </div>
+            <div class="d-flex mb-3 pb-3 latest-news-item">
+              <img
+                src="images/walking-dead-princess.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >'The Walking Dead': What Princess' Introduction Means For The
+                  AMC Show</a
+                >
+              </h5>
+            </div>
+            <div class="d-flex mb-3 pb-3 border-0 latest-news-item">
+              <img
+                src="images/noaa-rainfall-forecast-033020.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >NWS Issues Flood Warnings for Rivers in Georgia, Wisconsin
+                  and Tennessee</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h4 class="add-section-title mt-3 ml-3 mb-0 w-100">
+            <a href="#" class="add-title-link font-weight-bold">Business</a>
+          </h4>
+          <div class="col-md-4 mt-2 card mb-3 border-0">
+            <img
+              src="images/los-angeles-dodgers-baseball-stadium.webp"
+              class="card-img-top"
+              alt="Coronavirus"
+            />
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  Some Baseball Players to Get Paid $4,775 Per Day During
+                  Pandemic Shutdown</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 mt-2 card mb-3 border-0">
+            <img
+              src="images/1987-stock-market-crash-dow.webp"
+              class="card-img-top"
+              alt="Coronavirus"
+            />
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  Dow Jones Set to Record Worst Quarter in 33 Years Amid
+                  COVID-19 Fears</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 mt-2">
+            <div class="d-flex mb-3 pb-3 latest-news-item">
+              <img
+                src="images/wimbledon.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >Michigan State Rep. Dies from Suspected Coronavirus Infection
+                  in Detroit</a
+                >
+              </h5>
+            </div>
+            <div class="d-flex mb-3 pb-3 latest-news-item">
+              <img
+                src="images/walking-dead-princess.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >'The Walking Dead': What Princess' Introduction Means For The
+                  AMC Show</a
+                >
+              </h5>
+            </div>
+            <div class="d-flex mb-3 pb-3 border-0 latest-news-item">
+              <img
+                src="images/noaa-rainfall-forecast-033020.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >NWS Issues Flood Warnings for Rivers in Georgia, Wisconsin
+                  and Tennessee</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h4 class="add-section-title mt-3 ml-3 mb-0 w-100">
+            <a href="#" class="add-title-link font-weight-bold"
+              >Tech & Science</a
+            >
+          </h4>
+          <div class="col-md-4 mt-2 card mb-3 border-0">
+            <img
+              src="images/ccfz.webp"
+              class="card-img-top"
+              alt="Coronavirus"
+            />
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  Worms Living in the Deepest Ocean Could be Pushed to
+                  Extinction by Mining</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 mt-2 card mb-3 border-0">
+            <img
+              src="images/san-rafael-waterfall-ecuador.webp"
+              class="card-img-top"
+              alt="Coronavirus"
+            />
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  A Huge Sinkhole Just Made Ecuador's Tallest Waterfall
+                  Disappear</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 mt-2">
+            <div class="d-flex mb-3 pb-3 latest-news-item">
+              <img
+                src="images/wimbledon.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >Michigan State Rep. Dies from Suspected Coronavirus Infection
+                  in Detroit</a
+                >
+              </h5>
+            </div>
+            <div class="d-flex mb-3 pb-3 latest-news-item">
+              <img
+                src="images/walking-dead-princess.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >'The Walking Dead': What Princess' Introduction Means For The
+                  AMC Show</a
+                >
+              </h5>
+            </div>
+            <div class="d-flex mb-3 pb-3 border-0 latest-news-item">
+              <img
+                src="images/noaa-rainfall-forecast-033020.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >NWS Issues Flood Warnings for Rivers in Georgia, Wisconsin
+                  and Tennessee</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h4 class="add-section-title mt-3 ml-3 mb-0 w-100">
+            <a href="#" class="add-title-link font-weight-bold">Culture</a>
+          </h4>
+          <div class="col-md-4 mt-2 card mb-3 border-0">
+            <img
+              src="images/rick-morty-season-4-part-2.webp"
+              class="card-img-top"
+              alt="Coronavirus"
+            />
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  'Rick And Morty' Season 4 Episode 6: Trailer Confirms When
+                  Show Returns</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 mt-2 card mb-3 border-0">
+            <img
+              src="images/unsplash-hair-cut-men.webp"
+              class="card-img-top"
+              alt="Coronavirus"
+            />
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  How to Cut Men's Hair at Home During the Coronavirus
+                  Outbreak</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 mt-2">
+            <div class="d-flex mb-3 pb-3 latest-news-item">
+              <img
+                src="images/wimbledon.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >Michigan State Rep. Dies from Suspected Coronavirus Infection
+                  in Detroit</a
+                >
+              </h5>
+            </div>
+            <div class="d-flex mb-3 pb-3 latest-news-item">
+              <img
+                src="images/walking-dead-princess.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >'The Walking Dead': What Princess' Introduction Means For The
+                  AMC Show</a
+                >
+              </h5>
+            </div>
+            <div class="d-flex mb-3 pb-3 border-0 latest-news-item">
+              <img
+                src="images/noaa-rainfall-forecast-033020.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >NWS Issues Flood Warnings for Rivers in Georgia, Wisconsin
+                  and Tennessee</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h4 class="add-section-title mt-3 ml-3 mb-0 w-100">
+            <a href="#" class="add-title-link font-weight-bold">Sports</a>
+          </h4>
+          <div class="col-md-4 mt-2 card mb-3 border-0">
+            <img
+              src="images/denzel-washington-remember-titans.webp"
+              class="card-img-top"
+              alt="Coronavirus"
+            />
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  ESPN Names Herman Boone As Fictional Coach, Twitter Points Out
+                  He Was Real</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 mt-2 card mb-3 border-0">
+            <img
+              src="images/sofi-stadium.webp"
+              class="card-img-top"
+              alt="Coronavirus"
+            />
+            <div class="card-body p-0 mt-1">
+              <h5 class="card-title">
+                <a href="#" class="card-title-link">
+                  3,000 'Essential' Construction Workers for Los Angeles NFL
+                  Stadium Continue</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 mt-2">
+            <div class="d-flex mb-3 pb-3 latest-news-item">
+              <img
+                src="images/wimbledon.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >Michigan State Rep. Dies from Suspected Coronavirus Infection
+                  in Detroit</a
+                >
+              </h5>
+            </div>
+            <div class="d-flex mb-3 pb-3 latest-news-item">
+              <img
+                src="images/walking-dead-princess.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >'The Walking Dead': What Princess' Introduction Means For The
+                  AMC Show</a
+                >
+              </h5>
+            </div>
+            <div class="d-flex mb-3 pb-3 border-0 latest-news-item">
+              <img
+                src="images/noaa-rainfall-forecast-033020.webp"
+                alt="Drug"
+                class="latest-news-img-img mr-2"
+              />
+              <h5 class="latest-news-header font-weight-bold">
+                <a href="#" class="latest-news-link"
+                  >NWS Issues Flood Warnings for Rivers in Georgia, Wisconsin
+                  and Tennessee</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7 p-0">
+            <h4 class="subscribe-title mt-3 ml-3 mb-2 w-100">
+              <a href="#" class="subscribe-link text-uppercase font-weight-bold"
+                >subscribe</a
+              >
+            </h4>
+            <div class="d-flex flex-column flex-md-row">
+              <div class="ml-3 mr-5 position-relative">
+                <img
+                  src="images/march-20-27-2020-cover.jpg"
+                  alt="Bernie"
+                  class="subscribe-image1"
+                />
+                <img
+                  src="images/april-03-2020-cover.jpg"
+                  alt="Bernie"
+                  class="subscribe-image2 position-absolute"
+                />
+              </div>
+              <div class="mt-5 text-center text-md-left">
+                <h3 class="font-weight-bold subscribe-header">
+                  In-depth Stories You Don't See Elsewhere About Topics You Want
+                  to Read!
+                </h3>
+                <p>
+                  All Access + Weekly Delivery. Choose A Membership That's
+                  Perfect for You!
+                </p>
+                <a
+                  href="#"
+                  class="subscribe-magazine-link text-uppercase font-weight-bold pt-2 pb-2 pl-2 pr-2"
+                  >subscribe<i
+                    class="fi-xnsrxl-chevron-solid d-inline-block subscribe-arrow"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 p-0 mt-sm-3">
+            <h4 class="subscribe-title mt-3 ml-3 mb-2 w-100">
+              <a href="#" class="subscribe-link text-uppercase font-weight-bold"
+                >newsletter</a
+              >
+            </h4>
+            <div class="d-flex flex-column flex-md-row">
+              <div class="ml-3 mr-3 position-relative">
+                <img
+                  src="images/starting5-homepage.png"
+                  alt="Bernie"
+                  class="newsletter-image w-100 mb-3"
+                />
+              </div>
+              <div class="text-center text-md-left align-self-center">
+                <h3 class="font-weight-bold subscribe-header">
+                  The Starting 5
+                </h3>
+                <p>
+                  See why nearly a quarter of a million subscribers begin their
+                  day with the Starting 5.
+                </p>
+                <a
+                  href="#"
+                  class="subscribe-magazine-link text-uppercase font-weight-bold pt-2 pb-2 pl-2 pr-2"
+                  >sign in<i
+                    class="fi-xnsrxl-chevron-solid d-inline-block subscribe-arrow"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-3 pb-3 mt-5 bottom-section">
+          <div
+            class="col-12 d-flex justify-content-between flex-column flex-md-row"
+          >
+            <div class="d-flex flex-column flex-md-row">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 395.6 60"
+                style="enable-background: new 0 0 395.6 60;"
+                xml:space="preserve"
+                class="newsweek-bootom-logo mb-3"
+              >
+                <g>
+                  <path
+                    class="st0"
+                    d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+                  ></path>
+                </g>
+              </svg>
+              <span class="ml-md-3 mb-3">2020 NEWSWEEK</span>
+            </div>
+            <div class="d-flex">
+              <i class="fi-snsuxl-facebook mr-2"></i>
+              <i class="fi-xnsuxl-twitter mr-2"></i>
+              <i class="fi-xnsuxl-instagram mr-2"></i>
+              <i class="fi-xnsuxl-github mr-2"></i>
+              <i class="fi-snsuxl-linkedin mr-2"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <footer class="col-12">
+            <ul class="d-flex flex-wrap footer-list p-0 mb-0">
+              <li class="mr-3 font-weight-bold">Editions:</li>
+              <li><a href="#" class="mr-3 footer-link">U.S. Edition</a></li>
+              <li><a href="#" class="mr-3 footer-link">日本</a></li>
+              <li><a href="#" class="mr-3 footer-link">Pakistan</a></li>
+              <li><a href="#" class="mr-3 footer-link">Polska</a></li>
+              <li><a href="#" class="mr-3 footer-link">Romania</a></li>
+            </ul>
+            <ul class="d-flex flex-wrap footer-list p-0">
+              <li><a href="#" class="mr-3 footer-link">About Us</a></li>
+              <li><a href="#" class="mr-3 footer-link">Corrections</a></li>
+              <li><a href="#" class="mr-3 footer-link">Contact Us</a></li>
+              <li>
+                <a href="#" class="mr-3 footer-link">Editorial Guidelines</a>
+              </li>
+              <li><a href="#" class="mr-3 footer-link">Copyright</a></li>
+              <li>
+                <a href="#" class="mr-3 footer-link">Terms & Conditions</a>
+              </li>
+              <li><a href="#" class="mr-3 footer-link"> Privacy Policy</a></li>
+              <li><a href="#" class="mr-3 footer-link">Cookie Policy</a></li>
+              <li><a href="#" class="mr-3 footer-link">Terms of Sale</a></li>
+              <li><a href="#" class="mr-3 footer-link">Announcements</a></li>
+              <li>
+                <a href="#" class="mr-3 footer-link">Consent preferences</a>
+              </li>
+            </ul>
+          </footer>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
+  </body>
+</html>
