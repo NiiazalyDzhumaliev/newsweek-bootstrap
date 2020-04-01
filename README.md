@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/NiiazalyDzhumaliev/newsweek-bootstrap/8c132613e7c4069c4bdc44b8ff9e4dc1ddfee624/index.html)
+[Live Demo](https://rawcdn.githack.com/NiiazalyDzhumaliev/newsweek-bootstrap/f053b73ae738120c6a6ecf968a6554a14f4c83b9/index.html)
 
 ## Getting Started
 
